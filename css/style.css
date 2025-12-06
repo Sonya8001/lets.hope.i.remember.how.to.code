@@ -1,0 +1,45 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    font-family: "Optima", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+ 
+ 
+.navbar a.active {
+    border-radius: 15px;
+    font-weight: normal;
+    background-color: #cfa0d0;
+    color: #ffffff;
+}
+ 
+ 
+.navbar li a {
+    display: block;
+    width: 190px;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    background-color: #cfa0d0;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    margin: 7px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header {
+    display: block;
+    padding: 20px;
+    background-color: #da94dc;
+    text-align: center;
+}
+
+html {
+    background-color: rgb(252, 231, 252);
+}
