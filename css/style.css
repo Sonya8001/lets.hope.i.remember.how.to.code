@@ -144,6 +144,7 @@ h4 {
 
 .info-container .arrow-container img {
     display: block;
+    width: 60%;
 }
 
 .arrow-container-arrow {
@@ -153,8 +154,6 @@ h4 {
 
 .info-container .arrow-container .arrow-container-image {
     width: 60%;
-    height: 700px;
-    aspect-ratio: 1;
 }
 
 .info-title {
