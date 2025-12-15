@@ -34,9 +34,9 @@ html {
 }
 
 .navbar li a:hover {
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
-    border-color: orange;
+    border-color: rgb(255, 255, 255);
 }
 
 .header {
@@ -93,7 +93,6 @@ p {
     width: 100%;
     left: 0;
     text-align: center;
-    height: 60px;
     bottom: 0;
     color: white;
     padding: 15px;
@@ -105,7 +104,7 @@ p {
 
 .gallery-item img {
     display: block;
-    max-width: 300px;
+    height: 400px;
 }
 
 .gallery-item:hover {
@@ -153,7 +152,8 @@ h4 {
 }
 
 .info-container .arrow-container .arrow-container-image {
-    width: 80%;
+    width: 60%;
+    height: 700px;
     aspect-ratio: 1;
 }
 
@@ -178,6 +178,11 @@ h4 {
     padding-inline: 40px;
 }
 
+.info-container-2-body img {
+    width: 1000px;
+    border-radius: 40px;
+}
+
 .info-container-3-body {
     display: grid;
     grid-template-columns: 1fr 200px 1fr 200px 1fr;
@@ -194,11 +199,18 @@ h4 {
 
 .info-container-4-body-container {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container-4-body-container blockquote.instagram-media {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .info-container-4-body-container img {
     display: block;
-    padding-left: 40px;
-    width: 90%;
-    height: 1000px;
+    padding-left: 0;
+    max-width: 60%;
 }
